@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cac4b911f6c6e7b4b8a7911504a9fda6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 3
-  explosionRadius: {fileID: 135209936913049968}
   fuseTime: 3
+  pushForce: 13.5
+  explosionRadius: {fileID: 135209936913049968}
 --- !u!135 &135209936913049968
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -133,7 +133,7 @@ SphereCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1999404162947804}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
